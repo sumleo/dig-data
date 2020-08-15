@@ -1,0 +1,13 @@
+Name: Statements Percentage: 80.43% Fraction: 222/276
+Name: Branches Percentage: 71.05% Fraction: 54/76
+Name: Functions Percentage: 76.0% Fraction: 95/125
+Name: Lines Percentage: 79.85% Fraction: 214/268
+PARSE_BUG_HERE
+SEVERE->http://localhost:4000/api/v1/sessions - Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)
+SEVERE->http://localhost:4000/api/v1/registrations - Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$98-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$98-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$98-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$98-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$98-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/api/v1/sessions - Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)

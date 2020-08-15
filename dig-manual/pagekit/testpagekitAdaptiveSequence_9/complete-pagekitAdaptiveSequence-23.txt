@@ -1,0 +1,1 @@
+No test suite bug in /home/yw/dig-data/dig-manual/pagekit/testpagekitAdaptiveSequence_9

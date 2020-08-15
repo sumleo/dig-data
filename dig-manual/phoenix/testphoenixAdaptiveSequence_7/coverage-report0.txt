@@ -1,0 +1,6 @@
+Name: Statements Percentage: 61.23% Fraction: 169/276
+Name: Branches Percentage: 55.26% Fraction: 42/76
+Name: Functions Percentage: 52.8% Fraction: 66/125
+Name: Lines Percentage: 61.94% Fraction: 166/268
+PARSE_BUG_HERE
+SEVERE->http://localhost:4000/api/v1/sessions - Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)

@@ -1,0 +1,6 @@
+Name: Statements Percentage: 84.76% Fraction: 495/584
+Name: Branches Percentage: 61.4% Fraction: 105/171
+Name: Functions Percentage: 76.96% Fraction: 147/191
+Name: Lines Percentage: 85.16% Fraction: 442/519
+PARSE_BUG_HERE
+SEVERE->http://localhost:4003/assets/app.0.10.0.js 30:42692 Uncaught TypeError: e.refs.input.focus is not a function

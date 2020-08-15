@@ -1,0 +1,6 @@
+Name: Statements Percentage: 40.97% Fraction: 1139/2780
+Name: Branches Percentage: 33.61% Fraction: 363/1080
+Name: Functions Percentage: 43.59% Fraction: 245/562
+Name: Lines Percentage: 41.14% Fraction: 1138/2766
+PARSE_BUG_HERE
+SEVERE->http://localhost:35729/livereload.js - Failed to load resource: net::ERR_CONNECTION_REFUSED

@@ -1,0 +1,7 @@
+Name: Statements Percentage: 54.47% Fraction: 640/1175
+Name: Branches Percentage: 35.36% Fraction: 262/741
+Name: Functions Percentage: 50.81% Fraction: 188/370
+Name: Lines Percentage: 54.51% Fraction: 622/1141
+PARSE_BUG_HERE
+SEVERE->http://localhost:3003/pagekit/app/assets/codemirror/codemirror.js 42:1639 Uncaught TypeError: Cannot read property 'value' of undefined
+SEVERE->http://localhost:3003/pagekit/index.php/api/user/bulk - Failed to load resource: the server responded with a status of 400 (Bad Request)
