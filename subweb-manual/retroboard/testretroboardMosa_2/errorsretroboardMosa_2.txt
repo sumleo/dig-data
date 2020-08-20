@@ -1,0 +1,2726 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/yw/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/yw/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 12:17:45.450 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+
+SLF4J: Found binding in [jar:file:/home/yw/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 12:17:45.454 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/yw/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: Found binding in [jar:file:/home/yw/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 12:17:45.456 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/yw/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 12:17:45.456 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 12:17:45.628 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+Aug 20, 2020 4:17:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:17:49.083 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:17:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:17:49.083 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:17:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:17:50.674 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:17:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:17:50.674 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Exception in thread "Thread-3" java.lang.ClassCastException: org.evosuite.testcase.TestChromosome cannot be cast to org.evosuite.testsuite.TestSuiteChromosome
+[MASTER] 12:17:50.825 [Thread-3] ERROR ExternalProcessHandler - Exception in thread "Thread-3" java.lang.ClassCastException: org.evosuite.testcase.TestChromosome cannot be cast to org.evosuite.testsuite.TestSuiteChromosome
+
+	at org.evosuite.statistics.SearchStatistics.currentIndividual(SearchStatistics.java:181)
+[MASTER] 12:17:50.825 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.SearchStatistics.currentIndividual(SearchStatistics.java:181)
+
+	at org.evosuite.rmi.service.MasterNodeImpl.evosuite_collectStatistics(MasterNodeImpl.java:166)
+[MASTER] 12:17:50.826 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.MasterNodeImpl.evosuite_collectStatistics(MasterNodeImpl.java:166)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[MASTER] 12:17:50.826 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[MASTER] 12:17:50.826 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[MASTER] 12:17:50.827 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.lang.reflect.Method.invoke(Method.java:498)
+[MASTER] 12:17:50.827 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+[MASTER] 12:17:50.827 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+[MASTER] 12:17:50.827 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+[MASTER] 12:17:50.828 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+
+	at java.security.AccessController.doPrivileged(Native Method)
+[MASTER] 12:17:50.828 [Thread-3] ERROR ExternalProcessHandler - 	at java.security.AccessController.doPrivileged(Native Method)
+
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+[MASTER] 12:17:50.828 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+[MASTER] 12:17:50.829 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+[MASTER] 12:17:50.829 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+[MASTER] 12:17:50.829 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+
+	at java.security.AccessController.doPrivileged(Native Method)
+[MASTER] 12:17:50.829 [Thread-3] ERROR ExternalProcessHandler - 	at java.security.AccessController.doPrivileged(Native Method)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+[MASTER] 12:17:50.830 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[MASTER] 12:17:50.830 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[MASTER] 12:17:50.830 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+	at java.lang.Thread.run(Thread.java:748)
+[MASTER] 12:17:50.831 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.Thread.run(Thread.java:748)
+
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:303)
+[MASTER] 12:17:50.831 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:303)
+
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:279)
+[MASTER] 12:17:50.831 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:279)
+
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:164)
+[MASTER] 12:17:50.832 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:164)
+
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:235)
+[MASTER] 12:17:50.832 [Thread-3] ERROR ExternalProcessHandler - 	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:235)
+
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:180)
+[MASTER] 12:17:50.832 [Thread-3] ERROR ExternalProcessHandler - 	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:180)
+
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source)
+[MASTER] 12:17:50.833 [Thread-3] ERROR ExternalProcessHandler - 	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source)
+
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237)
+[MASTER] 12:17:50.833 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237)
+
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:75)
+[MASTER] 12:17:50.833 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:75)
+
+	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71)
+[MASTER] 12:17:50.834 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71)
+
+Aug 20, 2020 4:17:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:17:51.560 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:17:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:17:51.560 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:17:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:17:52.486 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:17:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:17:52.486 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:17:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:17:53.409 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:17:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:17:53.409 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:17:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:17:54.210 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:17:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:17:54.210 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:17:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:17:56.797 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:17:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:17:56.797 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:17:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:17:57.922 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:17:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:17:57.922 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:02.512 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:02.513 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:11.858 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:11.858 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:25.876 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:25.877 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:18:44.519 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.calculateFitness(AbstractMOSA.java:327) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.initializePopulation(AbstractMOSA.java:437) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:194) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:18:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:44.672 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:44.672 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:46.079 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:46.079 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:46.852 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:46.852 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:47.635 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:47.635 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:48.565 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:48.565 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:51.254 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:51.254 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:18:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:18:56.169 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:18:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:18:56.170 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:03.393 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:03.393 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:19:12.661 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.calculateFitness(AbstractMOSA.java:327) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.initializePopulation(AbstractMOSA.java:437) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:194) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:19:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:12.855 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:12.855 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:13.671 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:13.672 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:14.752 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:14.752 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:15.907 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:15.907 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:17.069 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:17.069 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:18.371 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:18.371 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:19.261 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:19.262 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:22.142 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:22.142 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:28.664 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:28.664 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:38.303 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:38.303 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:19:51.195 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.calculateFitness(AbstractMOSA.java:327) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.initializePopulation(AbstractMOSA.java:437) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:194) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:19:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:51.345 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:51.345 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:52.268 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:52.269 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:53.126 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:53.126 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:54.152 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:54.152 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:56.116 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:56.116 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:57.919 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:57.919 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:19:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:19:58.899 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:19:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:19:58.899 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:00.057 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:00.057 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:00.900 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:00.900 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:02.940 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:02.940 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:04.987 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:04.987 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:05.865 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:05.865 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:06.796 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:06.796 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:07.987 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:07.987 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:08.867 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:08.867 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:10.091 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:10.091 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:11.289 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:11.289 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:13.328 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:13.329 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:14.267 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:14.267 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:15.112 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:15.112 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:15.966 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:15.966 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:18.092 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:18.093 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:19.037 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:19.037 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:21.148 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:21.148 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:22.105 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:22.105 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:23.676 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:23.676 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:24.776 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:24.776 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:25.778 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:25.778 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:27.302 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:27.302 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:28.165 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:28.165 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:29.207 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:29.207 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:30.830 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:30.830 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:34.223 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:34.224 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:42.936 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:42.937 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:20:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:20:56.726 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:20:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:20:56.726 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:21:15.446 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:21:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:21:15.643 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:21:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:21:15.643 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:21:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:21:17.380 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:21:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:21:17.380 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:21:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:21:21.413 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:21:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:21:21.413 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:21:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:21:29.423 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:21:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:21:29.423 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:21:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:21:41.091 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:21:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:21:41.091 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:21:56.323 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:21:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:21:56.517 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:21:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:21:56.517 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:21:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:21:58.022 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:21:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:21:58.022 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:21:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:21:59.248 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:21:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:21:59.248 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:01 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:22:01.411 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:01 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:22:01.411 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:22:01.411 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:22:01.411 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:22:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:01.700 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:01.700 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:02.984 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:02.984 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:03.881 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:03.881 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:05.150 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:05.151 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:06.400 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:06.400 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:07.679 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:07.679 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:08.990 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:08.990 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:11.013 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:11.013 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:11.640 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:11.640 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:13 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:22:13.687 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:13 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:22:13.688 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:22:13.688 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:22:13.688 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:22:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:15.027 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:15.027 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:15.882 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:15.882 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:17.216 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:17.216 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:19.434 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:19.434 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:20.909 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:20.909 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:24.020 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:24.020 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:31.535 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:31.536 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:22:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:43.305 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:43.305 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:22:59.085 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:22:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:22:59.274 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:22:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:22:59.274 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:00.115 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:00.115 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:02.352 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:02.352 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:04.259 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:04.259 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:05.392 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:05.392 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:07.295 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:07.295 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:08.915 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:08.916 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:10.371 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:10.371 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:12.687 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:12.687 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:20.213 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:20.213 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:32.662 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:32.663 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:23:49.910 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:23:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:50.096 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:50.097 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:52.282 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:52.282 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:53.996 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:53.996 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:55.178 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:55.178 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:57.175 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:57.175 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:23:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:23:59.290 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:23:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:23:59.290 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:24:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:00.247 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:00.248 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:24:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:02.219 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:02.219 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:24:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:05.354 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:05.355 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:24:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:12.014 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:12.015 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:24:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:22.080 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:22.080 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:24:35.351 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:24:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:35.547 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:35.547 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:24:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:36.497 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:36.497 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:24:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:39.989 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:39.990 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:24:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:24:50.817 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:24:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:24:50.818 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:25:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:25:08.802 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:25:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:25:08.802 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:25:33.964 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:25:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:25:34.151 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:25:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:25:34.151 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:25:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:25:38.691 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:25:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:25:38.691 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:25:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:25:49.107 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:25:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:25:49.107 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:05.247 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:05.247 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:26:27.014 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:26:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:27.157 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:27.157 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:28.091 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:28.091 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:30 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:26:30.056 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:30 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:26:30.057 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:26:30.057 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:26:30.057 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:26:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:30.332 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:30.332 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:32.760 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:32.760 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:33.652 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:33.652 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:34.562 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:34.562 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:36.330 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:36.331 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:39.494 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:39.495 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:26:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:26:51.353 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:26:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:26:51.353 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:27:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:27:12.001 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:27:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:27:12.001 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:27:41.393 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:27:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:27:41.586 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:27:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:27:41.586 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:27:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:27:47.308 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:27:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:27:47.308 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:27:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:27:59.897 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:27:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:27:59.897 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:28:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:28:19.453 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:28:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:28:19.453 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:28:45.803 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:28:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:28:45.959 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:28:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:28:45.959 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:28:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:28:46.752 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:28:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:28:46.752 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:28:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:28:47.619 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:28:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:28:47.619 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:28:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:28:50.736 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:28:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:28:50.736 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:29:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:29:03.014 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:29:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:29:03.015 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:29:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:29:24.274 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:29:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:29:24.275 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:29:54.608 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:29:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:29:54.798 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:29:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:29:54.799 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:29:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:29:56.727 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:29:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:29:56.727 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:30:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:30:00.753 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:30:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:30:00.753 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:30:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:30:11.269 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:30:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:30:11.269 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:30:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:30:27.983 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:30:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:30:27.984 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:30:50.895 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:30:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:30:51.083 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:30:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:30:51.084 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:30:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:30:53.778 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:30:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:30:53.778 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:31:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:31:02.663 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:31:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:31:02.663 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:31:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:31:17.622 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:31:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:31:17.622 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:31:38.753 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:31:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:31:38.938 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:31:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:31:38.938 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:31:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:31:39.771 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:31:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:31:39.771 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:31:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:31:43.847 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:31:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:31:43.847 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:31:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:31:53.180 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:31:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:31:53.180 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:32:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:32:07.675 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:32:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:32:07.675 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:32:27.111 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:32:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:32:27.303 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:32:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:32:27.303 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:32:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:32:31.531 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:32:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:32:31.531 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:32:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:32:41.371 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:32:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:32:41.371 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:32:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:32:56.598 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:32:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:32:56.598 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:33:17.037 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:33:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:17.223 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:17.224 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:19.856 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:19.856 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:25.002 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:25.003 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:32.727 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:32.727 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:33:42.855 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:33:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:43.041 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:43.041 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:44.627 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:44.627 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:46.207 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:46.207 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:47 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:33:47.526 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:47 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:33:47.527 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:33:47.527 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:33:47.527 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:33:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:51.323 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:51.324 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:51.989 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:51.990 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:52.927 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:52.927 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:54.253 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:54.253 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:56.463 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:56.463 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:57.380 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:57.380 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:33:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:33:58.518 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:33:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:33:58.518 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:34:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:00.043 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:00.044 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:34:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:01.187 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:01.187 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:34:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:05.277 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:05.277 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:34:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:13.480 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:13.480 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:34:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:25.626 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:25.626 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:34:41.770 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:34:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:41.962 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:41.962 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:34:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:42.803 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:42.803 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:34:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:46.843 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:46.843 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:34:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:34:57.949 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:34:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:34:57.950 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:35:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:35:16.164 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:35:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:35:16.165 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:35:41.365 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:35:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:35:41.551 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:35:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:35:41.551 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:35:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:35:42.404 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:35:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:35:42.404 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:35:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:35:46.401 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:35:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:35:46.401 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:35:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:35:54.249 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:35:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:35:54.249 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:36:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:36:05.769 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:36:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:36:05.769 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:36:20.917 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:36:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:36:21.113 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:36:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:36:21.113 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:36:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:36:22.010 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:36:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:36:22.010 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:36:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:36:26.188 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:36:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:36:26.188 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:36:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:36:36.727 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:36:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:36:36.727 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:36:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:36:53.247 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:36:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:36:53.247 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:37:15.958 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:37:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:37:16.144 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:37:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:37:16.144 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:37:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:37:19.356 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:37:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:37:19.356 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:37:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:37:28.128 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:37:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:37:28.128 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:37:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:37:42.193 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:37:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:37:42.193 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:38:01.582 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:38:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:38:01.767 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:38:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:38:01.767 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:38:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:38:05.819 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:38:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:38:05.820 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:38:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:38:14.732 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:38:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:38:14.732 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:38:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:38:28.504 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:38:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:38:28.504 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:38:46.990 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:38:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:38:47.187 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:38:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:38:47.187 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:38:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:38:48.222 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:38:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:38:48.222 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:38:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:38:52.296 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:38:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:38:52.296 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:00.203 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:00.204 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:11.994 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:11.994 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:39:27.313 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:39:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:27.504 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:27.504 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:28.740 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:28.740 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:32.199 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:32.200 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:34.142 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:34.142 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:34.784 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:34.784 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:37.812 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:37.812 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:45.259 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:45.260 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:39:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:39:56.970 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:39:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:39:56.970 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:40:12.715 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:40:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:40:12.901 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:40:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:40:12.901 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:40:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:40:16.961 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:40:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:40:16.961 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:40:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:40:27.534 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:40:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:40:27.534 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:40:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:40:44.234 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:40:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:40:44.235 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:41:07.229 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:41:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:41:07.416 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:41:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:41:07.417 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:41:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:41:08.602 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:41:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:41:08.602 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:41:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:41:13.506 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:41:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:41:13.506 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:41:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:41:23.479 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:41:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:41:23.479 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:41:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:41:38.246 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:41:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:41:38.247 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:41:57.571 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:41:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:41:57.757 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:41:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:41:57.757 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:42:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:42:00.436 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:42:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:42:00.436 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:42:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:42:12.137 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:42:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:42:12.137 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:42:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:42:32.646 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:42:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:42:32.646 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:43:02.177 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:43:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:43:02.373 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:43:02.373 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:43:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:43:06.355 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:43:06.355 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:43:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:43:16.401 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:43:16.401 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:43:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:43:32.317 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:43:32.317 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:43:53.908 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:43:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:43:54.100 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:43:54.100 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:43:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:43:54.943 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:43:54.943 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:43:56 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:43:56.358 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:56 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:43:56.359 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:43:56.359 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:43:56.359 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:43:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:43:57.146 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:43:57.146 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:43:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:43:57.984 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:43:57.984 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:43:59 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:43:59.850 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:43:59 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:43:59.851 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:43:59.851 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:43:59.851 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:44:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:00.092 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:00.092 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:01.048 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:01.049 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:02.270 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:02.270 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:03.509 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:03.509 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:04.488 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:04.488 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:06.193 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:06.193 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:07.010 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:07.010 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:11.036 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:11.036 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:20.790 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:20.790 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:44:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:36.387 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:36.387 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:44:57.544 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:44:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:44:57.738 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:44:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:44:57.738 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:45:01 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:45:01.590 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:01 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:45:01.591 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:45:01.591 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:45:01.591 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:45:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:45:01.835 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:45:01.835 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:45:09 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:45:09.154 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:09 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:45:09.155 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:45:09.155 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:45:09.155 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:45:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:45:09.707 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:45:09.707 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:45:20 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:45:20.287 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:20 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:45:20.288 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:45:20.288 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:45:20.288 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:45:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:45:21.142 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:45:21.142 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:45:35 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:45:35.015 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:35 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:45:35.016 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:45:35.016 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:45:35.016 [Thread-3] ERROR ExternalProcessHandler - 
+
+[MASTER] 12:45:36.009 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:45:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:45:36.196 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:45:36.196 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:45:38 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:45:38.072 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:38 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:45:38.072 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:45:38.073 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:45:38.073 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:45:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:45:38.344 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:45:38.344 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:45:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:45:42.353 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:45:42.353 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:45:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:45:50.474 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:45:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:45:50.474 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:46:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:02.708 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:02.708 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:46:18.809 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:46:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:18.996 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:18.997 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:46:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:19.838 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:19.838 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:46:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:22.636 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:22.637 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:46:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:23.765 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:23.765 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:46:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:25.489 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:25.489 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:46:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:28.604 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:28.604 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:46:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:35.677 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:35.677 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:46:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:46:46.716 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:46:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:46:46.716 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:47:01.481 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:47:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:47:01.671 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:47:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:47:01.671 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:47:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:47:04.157 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:47:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:47:04.157 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:47:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:47:12.404 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:47:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:47:12.404 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:47:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:47:26.380 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:47:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:47:26.381 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:47:45.927 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:153) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:47:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:47:46.121 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:47:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:47:46.121 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:47:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:47:51.283 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:47:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:47:51.283 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:48:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:02.949 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:02.950 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:48:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:21.119 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:21.119 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:48:45.663 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:48:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:45.824 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:45.824 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:48:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:48.030 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:48.030 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:48:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:49.225 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:49.225 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:48:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:50.652 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:50.652 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:48:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:52.845 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:52.845 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:48:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:55.270 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:55.270 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:48:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:48:59.737 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:48:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:48:59.737 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:08.865 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:08.865 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:22.719 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:22.719 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+[MASTER] 12:49:41.229 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:322) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.isCovered(TestFitnessFunction.java:166) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testsuite.TestSuiteMinimizer.minimizeTests(TestSuiteMinimizer.java:287) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testsuite.TestSuiteMinimizer.minimize(TestSuiteMinimizer.java:111) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.postProcessTests(TestSuiteGenerator.java:422) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:215) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_265]
+Aug 20, 2020 4:49:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:41.409 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:41.410 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:43.026 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:43.026 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:45 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:49:45.214 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:45 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:49:45.215 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:49:45.215 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:49:45.215 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:49:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:45.493 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:45.493 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:46.851 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:46.851 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:50.309 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:50.309 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:53.377 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:53.377 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:57.405 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:57.405 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:49:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:49:59.538 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:49:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:49:59.538 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:50:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:50:00.903 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:50:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:50:00.903 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:50:02 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:50:02.896 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:50:02 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:50:02.897 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:50:02.897 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:50:02.897 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:50:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:50:03.159 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:50:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:50:03.159 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:50:05 AM po_utils.PageObjectLogging logInfo
+[MASTER] 12:50:05.156 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:50:05 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+[MASTER] 12:50:05.157 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Create a new session"]
+
+
+[MASTER] 12:50:05.157 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 12:50:05.157 [Thread-3] ERROR ExternalProcessHandler - 
+
+Aug 20, 2020 4:50:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:50:05.411 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:50:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:50:05.411 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:50:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:50:06.880 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:50:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:50:06.881 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:50:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:50:08.910 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:50:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:50:08.910 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Aug 20, 2020 4:50:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 12:50:12.940 [Thread-3] ERROR ExternalProcessHandler - Aug 20, 2020 4:50:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 12:50:12.941 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
