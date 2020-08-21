@@ -1,0 +1,49 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mdimeshift:pageobjects[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding pageobjects 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mpageobjects[0;1m ---[m
+[CodeCoverage]: running code coverage...
+[CodeCoverage]: Running suite - TestSuite
+[MutationTesting]: Number of tests to execute - 16
+[MutationTesting]: Starting execution of - test10
+[MutationTesting]: Finished execution of - test10
+[MutationTesting]: Starting execution of - test01
+[MutationTesting]: Finished execution of - test01
+[MutationTesting]: Starting execution of - test12
+[MutationTesting]: Finished execution of - test12
+[MutationTesting]: Starting execution of - test00
+[MutationTesting]: Finished execution of - test00
+[MutationTesting]: Starting execution of - test11
+[MutationTesting]: Finished execution of - test11
+[MutationTesting]: Starting execution of - test03
+[MutationTesting]: Finished execution of - test03
+[MutationTesting]: Starting execution of - test14
+[MutationTesting]: Finished execution of - test14
+[MutationTesting]: Starting execution of - test02
+[MutationTesting]: Finished execution of - test02
+[MutationTesting]: Starting execution of - test13
+[MutationTesting]: Finished execution of - test13
+[MutationTesting]: Starting execution of - test05
+[MutationTesting]: Finished execution of - test05
+[MutationTesting]: Starting execution of - test04
+[MutationTesting]: Finished execution of - test04
+[MutationTesting]: Starting execution of - test15
+[MutationTesting]: Finished execution of - test15
+[MutationTesting]: Starting execution of - test07
+[MutationTesting]: Finished execution of - test07
+[MutationTesting]: Starting execution of - test06
+[MutationTesting]: Finished execution of - test06
+[MutationTesting]: Starting execution of - test09
+[MutationTesting]: Finished execution of - test09
+[MutationTesting]: Starting execution of - test08
+[MutationTesting]: Finished execution of - test08
+[MutationTesting]: Number of tests executed - 16
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  43.417 s
+[[1;34mINFO[m] Finished at: 2020-08-21T14:33:38Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

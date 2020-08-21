@@ -1,0 +1,12 @@
+Name: Statements Percentage: 84.78% Fraction: 234/276
+Name: Branches Percentage: 73.68% Fraction: 56/76
+Name: Functions Percentage: 79.2% Fraction: 99/125
+Name: Lines Percentage: 84.33% Fraction: 226/268
+PARSE_BUG_HERE
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$87-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$87-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$87-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$87-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$87-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$87-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$87-my-board`. Child keys must be unique; when two children share a key, only the first child will be used."

@@ -1,0 +1,5 @@
+Name: Statements Percentage: 64.65% Fraction: 481/744
+Name: Branches Percentage: 31.44% Fraction: 172/547
+Name: Functions Percentage: 54.07% Fraction: 113/209
+Name: Lines Percentage: 64.78% Fraction: 469/724
+PARSE_BUG_HERE
