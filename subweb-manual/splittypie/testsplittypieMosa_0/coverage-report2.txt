@@ -1,0 +1,33 @@
+Name: Statements Percentage: 67.26% Fraction: 565/840
+Name: Branches Percentage: 45.87% Fraction: 100/218
+Name: Functions Percentage: 70.15% Fraction: 94/134
+Name: Lines Percentage: 68.0% Fraction: 559/822
+PARSE_BUG_HERE
+SEVERE->http://localhost:49153/livereload.js - Failed to load resource: net::ERR_CONNECTION_REFUSED
+SEVERE->http://localhost:4200/ - Access to XMLHttpRequest at 'https://geoip.nekudo.com/api' from origin 'http://localhost:4200' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+SEVERE->http://localhost:4200/assets/splittypie.js 3400:54 AbortError
+SEVERE->http://localhost:4200/assets/splittypie.js 1905:63 Error: FIREBASE FATAL ERROR: Cannot parse Firebase url. Please use https://<YOUR FIREBASE>.firebaseio.com 
+    at Vb (http://localhost:4200/assets/vendor.js:85597:278)
+    at Wb (http://localhost:4200/assets/vendor.js:85599:21)
+    at firebase.INTERNAL.registerService.Reference (http://localhost:4200/assets/vendor.js:85805:235)
+    at Object.a.(anonymous function) [as database] (http://localhost:4200/assets/vendor.js:84825:4066)
+    at e.value (http://localhost:4200/assets/vendor.js:84825:6484)
+    at Object.create (http://localhost:4200/assets/vendor.js:124663:18)
+    at instantiate (http://localhost:4200/assets/vendor.js:21220:23)
+    at lookup (http://localhost:4200/assets/vendor.js:21045:17)
+    at Container.lookup (http://localhost:4200/assets/vendor.js:20964:14)
+    at Class.lookup (http://localhost:4200/assets/vendor.js:52226:33)
+SEVERE->http://localhost:4200/assets/splittypie.js 1905:106 "Error: FIREBASE FATAL ERROR: Cannot parse Firebase url. Please use https://\u003CYOUR FIREBASE>.firebaseio.com \n    at Vb (http://localhost:4200/assets/vendor.js:85597:278)\n    at Wb (http://localhost:4200/assets/vendor.js:85599:21)\n    at firebase.INTERNAL.registerService.Reference (http://localhost:4200/assets/vendor.js:85805:235)\n    at Object.a.(anonymous function) [as database] (http://localhost:4200/assets/vendor.js:84825:4066)\n    at e.value (http://localhost:4200/assets/vendor.js:84825:6484)\n    at Object.create (http://localhost:4200/assets/vendor.js:124663:18)\n    at instantiate (http://localhost:4200/assets/vendor.js:21220:23)\n    at lookup (http://localhost:4200/assets/vendor.js:21045:17)\n    at Container.lookup (http://localhost:4200/assets/vendor.js:20964:14)\n    at Class.lookup (http://localhost:4200/assets/vendor.js:52226:33)"
+SEVERE->http://localhost:4200/assets/splittypie.js 1905:63 Error: FIREBASE FATAL ERROR: Cannot parse Firebase url. Please use https://<YOUR FIREBASE>.firebaseio.com 
+    at Vb (http://localhost:4200/assets/vendor.js:85597:278)
+    at Wb (http://localhost:4200/assets/vendor.js:85599:21)
+    at firebase.INTERNAL.registerService.Reference (http://localhost:4200/assets/vendor.js:85805:235)
+    at Object.a.(anonymous function) [as database] (http://localhost:4200/assets/vendor.js:84825:4066)
+    at e.value (http://localhost:4200/assets/vendor.js:84825:6484)
+    at Object.create (http://localhost:4200/assets/vendor.js:124663:18)
+    at instantiate (http://localhost:4200/assets/vendor.js:21220:23)
+    at lookup (http://localhost:4200/assets/vendor.js:21045:17)
+    at Container.lookup (http://localhost:4200/assets/vendor.js:20964:14)
+    at Class.lookup (http://localhost:4200/assets/vendor.js:52226:33)
+SEVERE->http://localhost:4200/assets/splittypie.js 1905:106 "Error: FIREBASE FATAL ERROR: Cannot parse Firebase url. Please use https://\u003CYOUR FIREBASE>.firebaseio.com \n    at Vb (http://localhost:4200/assets/vendor.js:85597:278)\n    at Wb (http://localhost:4200/assets/vendor.js:85599:21)\n    at firebase.INTERNAL.registerService.Reference (http://localhost:4200/assets/vendor.js:85805:235)\n    at Object.a.(anonymous function) [as database] (http://localhost:4200/assets/vendor.js:84825:4066)\n    at e.value (http://localhost:4200/assets/vendor.js:84825:6484)\n    at Object.create (http://localhost:4200/assets/vendor.js:124663:18)\n    at instantiate (http://localhost:4200/assets/vendor.js:21220:23)\n    at lookup (http://localhost:4200/assets/vendor.js:21045:17)\n    at Container.lookup (http://localhost:4200/assets/vendor.js:20964:14)\n    at Class.lookup (http://localhost:4200/assets/vendor.js:52226:33)"
+SEVERE->http://localhost:4200/assets/arrow-right.png - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME

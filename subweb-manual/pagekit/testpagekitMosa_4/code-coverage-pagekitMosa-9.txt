@@ -18,7 +18,8 @@ test01: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test01
 [MutationTesting]: Starting execution of - test02
 test02: try run 1 with sleep timeout 0.
-test02: run 1 successful with sleep timeout 0.
+test02: try run 2 with sleep timeout 250.
+test02: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test02
 [MutationTesting]: Starting execution of - test03
 test03: try run 1 with sleep timeout 0.
@@ -81,7 +82,8 @@ test16: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test16
 [MutationTesting]: Starting execution of - test17
 test17: try run 1 with sleep timeout 0.
-test17: run 1 successful with sleep timeout 0.
+test17: try run 2 with sleep timeout 250.
+test17: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test17
 [MutationTesting]: Starting execution of - test18
 test18: try run 1 with sleep timeout 0.
@@ -89,7 +91,8 @@ test18: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test18
 [MutationTesting]: Starting execution of - test19
 test19: try run 1 with sleep timeout 0.
-test19: run 1 successful with sleep timeout 0.
+test19: try run 2 with sleep timeout 250.
+test19: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test19
 [MutationTesting]: Starting execution of - test20
 test20: try run 1 with sleep timeout 0.
@@ -101,7 +104,8 @@ test21: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test21
 [MutationTesting]: Starting execution of - test22
 test22: try run 1 with sleep timeout 0.
-test22: run 1 successful with sleep timeout 0.
+test22: try run 2 with sleep timeout 250.
+test22: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test22
 [MutationTesting]: Starting execution of - test23
 test23: try run 1 with sleep timeout 0.
@@ -157,7 +161,8 @@ test35: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test35
 [MutationTesting]: Starting execution of - test36
 test36: try run 1 with sleep timeout 0.
-test36: run 1 successful with sleep timeout 0.
+test36: try run 2 with sleep timeout 250.
+test36: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test36
 [MutationTesting]: Starting execution of - test37
 test37: try run 1 with sleep timeout 0.
@@ -175,6 +180,6 @@ test39: run 1 successful with sleep timeout 0.
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  06:27 min
-[[1;34mINFO[m] Finished at: 2020-08-21T23:32:31+08:00
+[[1;34mINFO[m] Total time:  05:28 min
+[[1;34mINFO[m] Finished at: 2020-08-22T18:41:24+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m

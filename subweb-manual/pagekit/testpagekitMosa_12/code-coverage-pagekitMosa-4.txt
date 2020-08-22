@@ -27,7 +27,8 @@ test03: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test03
 [MutationTesting]: Starting execution of - test04
 test04: try run 1 with sleep timeout 0.
-test04: run 1 successful with sleep timeout 0.
+test04: try run 2 with sleep timeout 250.
+test04: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test04
 [MutationTesting]: Starting execution of - test05
 test05: try run 1 with sleep timeout 0.
@@ -63,8 +64,7 @@ test12: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test12
 [MutationTesting]: Starting execution of - test13
 test13: try run 1 with sleep timeout 0.
-test13: try run 2 with sleep timeout 250.
-test13: run 2 successful with sleep timeout 250.
+test13: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test13
 [MutationTesting]: Starting execution of - test14
 test14: try run 1 with sleep timeout 0.
@@ -96,7 +96,8 @@ test20: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test20
 [MutationTesting]: Starting execution of - test21
 test21: try run 1 with sleep timeout 0.
-test21: run 1 successful with sleep timeout 0.
+test21: try run 2 with sleep timeout 250.
+test21: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test21
 [MutationTesting]: Starting execution of - test22
 test22: try run 1 with sleep timeout 0.
@@ -148,8 +149,7 @@ test33: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test33
 [MutationTesting]: Starting execution of - test34
 test34: try run 1 with sleep timeout 0.
-test34: try run 2 with sleep timeout 250.
-test34: run 2 successful with sleep timeout 250.
+test34: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test34
 [MutationTesting]: Starting execution of - test35
 test35: try run 1 with sleep timeout 0.
@@ -159,6 +159,6 @@ test35: run 1 successful with sleep timeout 0.
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  04:14 min
-[[1;34mINFO[m] Finished at: 2020-08-21T23:03:52+08:00
+[[1;34mINFO[m] Total time:  04:23 min
+[[1;34mINFO[m] Finished at: 2020-08-22T18:15:19+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m

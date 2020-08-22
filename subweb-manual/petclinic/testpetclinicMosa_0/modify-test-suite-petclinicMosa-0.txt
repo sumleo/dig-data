@@ -5,23 +5,11 @@
 [[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mpageobjects[0;1m ---[m
-[[1;33mWARNING[m] 
-[1;31mjava.lang.ClassNotFoundException[m: [1;31mcode.Main[m
-    [1mat[m java.net.URLClassLoader.findClass ([1mURLClassLoader.java:382[m)
-    [1mat[m java.lang.ClassLoader.loadClass ([1mClassLoader.java:418[m)
-    [1mat[m java.lang.ClassLoader.loadClass ([1mClassLoader.java:351[m)
-    [1mat[m org.codehaus.mojo.exec.ExecJavaMojo$1.run ([1mExecJavaMojo.java:246[m)
-    [1mat[m java.lang.Thread.run ([1mThread.java:748[m)
+[CodeCoverage]: modifying evosuite test suite /home/yw/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTest_ESTest.java...
+[CodeCoverage]: evosuite test suite /home/yw/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTest_ESTest.java modified successfully!
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  2.926 s
-[[1;34mINFO[m] Finished at: 2020-08-21T22:38:04+08:00
+[[1;34mINFO[m] Total time:  3.378 s
+[[1;34mINFO[m] Finished at: 2020-08-22T17:50:40+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;31mERROR[m] Failed to execute goal [32morg.codehaus.mojo:exec-maven-plugin:3.0.0:java[m [1m(default-cli)[m on project [36mpageobjects[m: [1;31mAn exception occured while executing the Java class. code.Main[m -> [1m[Help 1][m
-[[1;31mERROR[m] 
-[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
-[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
-[[1;31mERROR[m] 
-[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
-[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

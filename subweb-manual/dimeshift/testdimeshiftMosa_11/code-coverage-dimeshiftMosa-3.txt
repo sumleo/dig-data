@@ -50,12 +50,13 @@ test09: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test09
 [MutationTesting]: Starting execution of - test10
 test10: try run 1 with sleep timeout 0.
-test10: run 1 successful with sleep timeout 0.
+test10: try run 2 with sleep timeout 250.
+test10: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test10
 [MutationTesting]: Number of tests executed - 11
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  01:00 min
-[[1;34mINFO[m] Finished at: 2020-08-21T22:37:22+08:00
+[[1;34mINFO[m] Total time:  01:04 min
+[[1;34mINFO[m] Finished at: 2020-08-22T16:59:20+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m

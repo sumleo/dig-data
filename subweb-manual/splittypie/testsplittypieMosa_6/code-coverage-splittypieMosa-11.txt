@@ -91,5 +91,5 @@ Stacktrace: java.lang.IllegalStateException: Be sure that the application source
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] Total time:  01:07 min
-[[1;34mINFO[m] Finished at: 2020-08-21T22:58:52+08:00
+[[1;34mINFO[m] Finished at: 2020-08-22T18:10:14+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m

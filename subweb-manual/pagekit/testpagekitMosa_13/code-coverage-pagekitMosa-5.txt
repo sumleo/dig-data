@@ -72,7 +72,8 @@ test14: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test14
 [MutationTesting]: Starting execution of - test15
 test15: try run 1 with sleep timeout 0.
-test15: run 1 successful with sleep timeout 0.
+test15: try run 2 with sleep timeout 250.
+test15: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test15
 [MutationTesting]: Starting execution of - test16
 test16: try run 1 with sleep timeout 0.
@@ -155,6 +156,6 @@ test34: run 1 successful with sleep timeout 0.
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  04:01 min
-[[1;34mINFO[m] Finished at: 2020-08-21T23:08:01+08:00
+[[1;34mINFO[m] Total time:  04:10 min
+[[1;34mINFO[m] Finished at: 2020-08-22T18:19:37+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m

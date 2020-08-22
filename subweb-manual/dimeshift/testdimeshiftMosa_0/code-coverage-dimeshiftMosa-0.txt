@@ -8,42 +8,74 @@
 [CodeCoverage]: running code coverage...
 [CodeCoverage]: Running suite - TestSuite
 [MutationTesting]: Number of tests to execute - 16
-[MutationTesting]: Starting execution of - test10
-[MutationTesting]: Finished execution of - test10
-[MutationTesting]: Starting execution of - test01
-[MutationTesting]: Finished execution of - test01
-[MutationTesting]: Starting execution of - test12
-[MutationTesting]: Finished execution of - test12
 [MutationTesting]: Starting execution of - test00
+test00: try run 1 with sleep timeout 0.
+test00: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test00
-[MutationTesting]: Starting execution of - test11
-[MutationTesting]: Finished execution of - test11
-[MutationTesting]: Starting execution of - test03
-[MutationTesting]: Finished execution of - test03
-[MutationTesting]: Starting execution of - test14
-[MutationTesting]: Finished execution of - test14
+[MutationTesting]: Starting execution of - test01
+test01: try run 1 with sleep timeout 0.
+test01: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test01
 [MutationTesting]: Starting execution of - test02
+test02: try run 1 with sleep timeout 0.
+test02: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test02
-[MutationTesting]: Starting execution of - test13
-[MutationTesting]: Finished execution of - test13
-[MutationTesting]: Starting execution of - test05
-[MutationTesting]: Finished execution of - test05
+[MutationTesting]: Starting execution of - test03
+test03: try run 1 with sleep timeout 0.
+test03: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test03
 [MutationTesting]: Starting execution of - test04
+test04: try run 1 with sleep timeout 0.
+test04: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test04
-[MutationTesting]: Starting execution of - test15
-[MutationTesting]: Finished execution of - test15
-[MutationTesting]: Starting execution of - test07
-[MutationTesting]: Finished execution of - test07
+[MutationTesting]: Starting execution of - test05
+test05: try run 1 with sleep timeout 0.
+test05: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test05
 [MutationTesting]: Starting execution of - test06
+test06: try run 1 with sleep timeout 0.
+test06: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test06
-[MutationTesting]: Starting execution of - test09
-[MutationTesting]: Finished execution of - test09
+[MutationTesting]: Starting execution of - test07
+test07: try run 1 with sleep timeout 0.
+test07: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test07
 [MutationTesting]: Starting execution of - test08
+test08: try run 1 with sleep timeout 0.
+test08: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test08
+[MutationTesting]: Starting execution of - test09
+test09: try run 1 with sleep timeout 0.
+test09: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test09
+[MutationTesting]: Starting execution of - test10
+test10: try run 1 with sleep timeout 0.
+test10: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test10
+[MutationTesting]: Starting execution of - test11
+test11: try run 1 with sleep timeout 0.
+test11: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test11
+[MutationTesting]: Starting execution of - test12
+test12: try run 1 with sleep timeout 0.
+test12: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test12
+[MutationTesting]: Starting execution of - test13
+test13: try run 1 with sleep timeout 0.
+test13: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test13
+[MutationTesting]: Starting execution of - test14
+test14: try run 1 with sleep timeout 0.
+test14: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test14
+[MutationTesting]: Starting execution of - test15
+test15: try run 1 with sleep timeout 0.
+test15: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test15
 [MutationTesting]: Number of tests executed - 16
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  43.417 s
-[[1;34mINFO[m] Finished at: 2020-08-21T14:33:38Z
+[[1;34mINFO[m] Total time:  01:08 min
+[[1;34mINFO[m] Finished at: 2020-08-22T16:55:37+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m

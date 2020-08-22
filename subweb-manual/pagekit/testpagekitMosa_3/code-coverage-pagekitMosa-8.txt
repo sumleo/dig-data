@@ -34,8 +34,7 @@ test05: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test05
 [MutationTesting]: Starting execution of - test06
 test06: try run 1 with sleep timeout 0.
-test06: try run 2 with sleep timeout 250.
-test06: run 2 successful with sleep timeout 250.
+test06: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test06
 [MutationTesting]: Starting execution of - test07
 test07: try run 1 with sleep timeout 0.
@@ -84,7 +83,8 @@ test17: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test17
 [MutationTesting]: Starting execution of - test18
 test18: try run 1 with sleep timeout 0.
-test18: run 1 successful with sleep timeout 0.
+test18: try run 2 with sleep timeout 250.
+test18: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test18
 [MutationTesting]: Starting execution of - test19
 test19: try run 1 with sleep timeout 0.
@@ -176,6 +176,6 @@ test39: run 1 successful with sleep timeout 0.
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  06:42 min
-[[1;34mINFO[m] Finished at: 2020-08-21T23:25:40+08:00
+[[1;34mINFO[m] Total time:  05:20 min
+[[1;34mINFO[m] Finished at: 2020-08-22T18:35:49+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m

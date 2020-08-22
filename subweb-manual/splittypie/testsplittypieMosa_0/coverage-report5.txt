@@ -1,0 +1,15 @@
+Name: Statements Percentage: 70.42% Fraction: 626/889
+Name: Branches Percentage: 47.37% Fraction: 108/228
+Name: Functions Percentage: 72.73% Fraction: 104/143
+Name: Lines Percentage: 71.18% Fraction: 620/871
+PARSE_BUG_HERE
+SEVERE->http://localhost:49153/livereload.js - Failed to load resource: net::ERR_CONNECTION_REFUSED
+SEVERE->http://localhost:4200/ - Access to XMLHttpRequest at 'https://geoip.nekudo.com/api' from origin 'http://localhost:4200' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+SEVERE->http://localhost:4200/assets/splittypie.js 3400:54 AbortError
+SEVERE->http://localhost:4200/assets/app_iphone.png - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
+SEVERE->http://localhost:4200/assets/responsive.jpg - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
+SEVERE->http://localhost:4200/assets/stopwatch.png - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
+SEVERE->http://localhost:4200/assets/offline.png - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
+SEVERE->http://localhost:4200/assets/free.png - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
+SEVERE->http://localhost:4200/assets/share.png - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
+SEVERE->http://localhost:4200/assets/open-source.png - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME

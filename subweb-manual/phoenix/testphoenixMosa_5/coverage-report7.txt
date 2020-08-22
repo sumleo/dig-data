@@ -1,0 +1,10 @@
+Name: Statements Percentage: 68.48% Fraction: 189/276
+Name: Branches Percentage: 61.84% Fraction: 47/76
+Name: Functions Percentage: 59.2% Fraction: 74/125
+Name: Lines Percentage: 69.03% Fraction: 185/268
+PARSE_BUG_HERE
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$110-another-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$110-another-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$110-another-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$110-another-board`. Child keys must be unique; when two children share a key, only the first child will be used."
+SEVERE->http://localhost:4000/js/application.js 2304:17 "Warning: flattenChildren(...): Encountered two children with the same key, `.$110-another-board`. Child keys must be unique; when two children share a key, only the first child will be used."

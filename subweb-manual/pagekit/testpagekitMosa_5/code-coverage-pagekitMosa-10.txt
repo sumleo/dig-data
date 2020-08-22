@@ -59,7 +59,8 @@ test11: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test11
 [MutationTesting]: Starting execution of - test12
 test12: try run 1 with sleep timeout 0.
-test12: run 1 successful with sleep timeout 0.
+test12: try run 2 with sleep timeout 250.
+test12: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test12
 [MutationTesting]: Starting execution of - test13
 test13: try run 1 with sleep timeout 0.
@@ -75,7 +76,8 @@ test15: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test15
 [MutationTesting]: Starting execution of - test16
 test16: try run 1 with sleep timeout 0.
-test16: run 1 successful with sleep timeout 0.
+test16: try run 2 with sleep timeout 250.
+test16: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test16
 [MutationTesting]: Starting execution of - test17
 test17: try run 1 with sleep timeout 0.
@@ -91,7 +93,8 @@ test19: run 1 successful with sleep timeout 0.
 [MutationTesting]: Finished execution of - test19
 [MutationTesting]: Starting execution of - test20
 test20: try run 1 with sleep timeout 0.
-test20: run 1 successful with sleep timeout 0.
+test20: try run 2 with sleep timeout 250.
+test20: run 2 successful with sleep timeout 250.
 [MutationTesting]: Finished execution of - test20
 [MutationTesting]: Starting execution of - test21
 test21: try run 1 with sleep timeout 0.
@@ -157,6 +160,6 @@ test35: run 1 successful with sleep timeout 0.
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  04:02 min
-[[1;34mINFO[m] Finished at: 2020-08-21T23:36:49+08:00
+[[1;34mINFO[m] Total time:  04:30 min
+[[1;34mINFO[m] Finished at: 2020-08-22T18:46:02+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
