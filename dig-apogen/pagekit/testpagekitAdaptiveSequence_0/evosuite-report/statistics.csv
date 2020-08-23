@@ -1,2 +1,4 @@
 LineCoverage,Statements_Executed,Tests_Executed,Fitness_Evaluations,Total_Time
-1.0,1737,274,256,1964532
+0.8333333333333334,303,16,12,222073
+1.0,501,50,44,467210
+1.0,810,46,37,485924
