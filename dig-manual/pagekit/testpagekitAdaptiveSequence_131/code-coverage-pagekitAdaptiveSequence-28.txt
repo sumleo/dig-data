@@ -1,0 +1,190 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mpageobjects:pagekit[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding pagekit 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mpagekit[0;1m ---[m
+[CodeCoverage]: running code coverage...
+[CodeCoverage]: Running suite - TestSuite
+[MutationTesting]: Number of tests to execute - 40
+[MutationTesting]: Starting execution of - test00
+test00: try run 1 with sleep timeout 0.
+test00: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test00
+[MutationTesting]: Starting execution of - test01
+test01: try run 1 with sleep timeout 0.
+test01: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test01
+[MutationTesting]: Starting execution of - test02
+test02: try run 1 with sleep timeout 0.
+test02: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test02
+[MutationTesting]: Starting execution of - test03
+test03: try run 1 with sleep timeout 0.
+test03: try run 2 with sleep timeout 250.
+test03: run 2 successful with sleep timeout 250.
+[MutationTesting]: Finished execution of - test03
+[MutationTesting]: Starting execution of - test04
+test04: try run 1 with sleep timeout 0.
+test04: try run 2 with sleep timeout 250.
+test04: run 2 successful with sleep timeout 250.
+[MutationTesting]: Finished execution of - test04
+[MutationTesting]: Starting execution of - test05
+test05: try run 1 with sleep timeout 0.
+test05: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test05
+[MutationTesting]: Starting execution of - test06
+test06: try run 1 with sleep timeout 0.
+test06: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test06
+[MutationTesting]: Starting execution of - test07
+test07: try run 1 with sleep timeout 0.
+test07: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test07
+[MutationTesting]: Starting execution of - test08
+test08: try run 1 with sleep timeout 0.
+test08: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test08
+[MutationTesting]: Starting execution of - test09
+test09: try run 1 with sleep timeout 0.
+test09: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test09
+[MutationTesting]: Starting execution of - test10
+test10: try run 1 with sleep timeout 0.
+test10: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test10
+[MutationTesting]: Starting execution of - test11
+test11: try run 1 with sleep timeout 0.
+test11: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test11
+[MutationTesting]: Starting execution of - test12
+test12: try run 1 with sleep timeout 0.
+test12: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test12
+[MutationTesting]: Starting execution of - test13
+test13: try run 1 with sleep timeout 0.
+test13: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test13
+[MutationTesting]: Starting execution of - test14
+test14: try run 1 with sleep timeout 0.
+test14: try run 2 with sleep timeout 250.
+test14: run 2 successful with sleep timeout 250.
+[MutationTesting]: Finished execution of - test14
+[MutationTesting]: Starting execution of - test15
+test15: try run 1 with sleep timeout 0.
+test15: try run 2 with sleep timeout 250.
+test15: run 2 successful with sleep timeout 250.
+[MutationTesting]: Finished execution of - test15
+[MutationTesting]: Starting execution of - test16
+test16: try run 1 with sleep timeout 0.
+test16: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test16
+[MutationTesting]: Starting execution of - test17
+test17: try run 1 with sleep timeout 0.
+test17: try run 2 with sleep timeout 250.
+test17: run 2 successful with sleep timeout 250.
+[MutationTesting]: Finished execution of - test17
+[MutationTesting]: Starting execution of - test18
+test18: try run 1 with sleep timeout 0.
+test18: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test18
+[MutationTesting]: Starting execution of - test19
+test19: try run 1 with sleep timeout 0.
+test19: try run 2 with sleep timeout 250.
+test19: run 2 successful with sleep timeout 250.
+[MutationTesting]: Finished execution of - test19
+[MutationTesting]: Starting execution of - test20
+test20: try run 1 with sleep timeout 0.
+test20: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test20
+[MutationTesting]: Starting execution of - test21
+test21: try run 1 with sleep timeout 0.
+test21: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test21
+[MutationTesting]: Starting execution of - test22
+test22: try run 1 with sleep timeout 0.
+test22: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test22
+[MutationTesting]: Starting execution of - test23
+test23: try run 1 with sleep timeout 0.
+test23: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test23
+[MutationTesting]: Starting execution of - test24
+test24: try run 1 with sleep timeout 0.
+test24: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test24
+[MutationTesting]: Starting execution of - test25
+test25: try run 1 with sleep timeout 0.
+test25: run 1 successful with sleep timeout 0.
+[MutationTesting]: Finished execution of - test25
+[MutationTesting]: Starting execution of - test26
+test26: try run 1 with sleep timeout 0.
+test26: try run 2 with sleep timeout 250.
+test26: try run 3 with sleep timeout 500.
+[MutationTesting]: Test execution failed - test26
+Stacktrace: po_utils.NotTheRightInputValuesException: deleteAllPagesAndLinks: there must be at least one element in the list
+	at main.ClassUnderTest.deleteAllPagesAndLinksPagesContainerPage(ClassUnderTest.java:1778)
+	at main.ClassUnderTest_ESTest.test26(ClassUnderTest_ESTest.java:2220)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at code.execution.RetryRule$1.evaluate(RetryRule.java:34)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at code.execution.TestExecution.runTestSuite(TestExecution.java:144)
+	at code.main.CodeCoverage.runTestSuite(CodeCoverage.java:78)
+	at code.main.CodeCoverage.runCodeCoverage(CodeCoverage.java:72)
+	at code.Main.main(Main.java:66)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+
+[MutationTesting]: Finished execution of - test26
+[MutationTesting]: Test ignored - test27
+[MutationTesting]: Test ignored - test28
+[MutationTesting]: Test ignored - test29
+[MutationTesting]: Test ignored - test30
+[MutationTesting]: Test ignored - test31
+[MutationTesting]: Test ignored - test32
+[MutationTesting]: Test ignored - test33
+[MutationTesting]: Test ignored - test34
+[MutationTesting]: Test ignored - test35
+[MutationTesting]: Test ignored - test36
+[MutationTesting]: Test ignored - test37
+[MutationTesting]: Test ignored - test38
+[MutationTesting]: Test ignored - test39
+[MutationTesting]: Number of tests executed - 27
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  04:18 min
+[[1;34mINFO[m] Finished at: 2020-08-25T02:16:20+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

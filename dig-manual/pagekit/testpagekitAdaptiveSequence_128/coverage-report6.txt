@@ -1,0 +1,6 @@
+Name: Statements Percentage: 42.48% Fraction: 455/1071
+Name: Branches Percentage: 20.83% Fraction: 146/701
+Name: Functions Percentage: 35.45% Fraction: 117/330
+Name: Lines Percentage: 42.57% Fraction: 444/1043
+PARSE_BUG_HERE
+SEVERE->http://localhost:3003/pagekit/index.php/api/site/menu - Failed to load resource: the server responded with a status of 409 (Conflict)
