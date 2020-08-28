@@ -1,0 +1,102 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mpageobjects:pagekit[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding pagekit 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.0.0:java[m [1m(default-cli)[m @ [36mpagekit[0;1m ---[m
+[CodeCoverage]: running code coverage...
+[CodeCoverage]: Running suite - TestSuite
+[MutationTesting]: Number of tests to execute - 36
+[MutationTesting]: Starting execution of - test00
+test00: try run 1 with sleep timeout 0.
+test00: try run 2 with sleep timeout 250.
+test00: try run 3 with sleep timeout 500.
+[MutationTesting]: Test execution failed - test00
+Stacktrace: po_utils.NotTheRightInputValuesException: User with id 2 is not a valid user
+	at main.ClassUnderTest.activateUserUserListContainerPage(ClassUnderTest.java:804)
+	at main.ClassUnderTest_ESTest.test00(ClassUnderTest_ESTest.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at code.execution.RetryRule$1.evaluate(RetryRule.java:34)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at code.execution.TestExecution.runTestSuite(TestExecution.java:144)
+	at code.main.CodeCoverage.runTestSuite(CodeCoverage.java:78)
+	at code.main.CodeCoverage.runCodeCoverage(CodeCoverage.java:72)
+	at code.Main.main(Main.java:66)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:254)
+	at java.lang.Thread.run(Thread.java:748)
+
+[MutationTesting]: Finished execution of - test00
+[MutationTesting]: Test ignored - test01
+[MutationTesting]: Test ignored - test02
+[MutationTesting]: Test ignored - test03
+[MutationTesting]: Test ignored - test04
+[MutationTesting]: Test ignored - test05
+[MutationTesting]: Test ignored - test06
+[MutationTesting]: Test ignored - test07
+[MutationTesting]: Test ignored - test08
+[MutationTesting]: Test ignored - test09
+[MutationTesting]: Test ignored - test10
+[MutationTesting]: Test ignored - test11
+[MutationTesting]: Test ignored - test12
+[MutationTesting]: Test ignored - test13
+[MutationTesting]: Test ignored - test14
+[MutationTesting]: Test ignored - test15
+[MutationTesting]: Test ignored - test16
+[MutationTesting]: Test ignored - test17
+[MutationTesting]: Test ignored - test18
+[MutationTesting]: Test ignored - test19
+[MutationTesting]: Test ignored - test20
+[MutationTesting]: Test ignored - test21
+[MutationTesting]: Test ignored - test22
+[MutationTesting]: Test ignored - test23
+[MutationTesting]: Test ignored - test24
+[MutationTesting]: Test ignored - test25
+[MutationTesting]: Test ignored - test26
+[MutationTesting]: Test ignored - test27
+[MutationTesting]: Test ignored - test28
+[MutationTesting]: Test ignored - test29
+[MutationTesting]: Test ignored - test30
+[MutationTesting]: Test ignored - test31
+[MutationTesting]: Test ignored - test32
+[MutationTesting]: Test ignored - test33
+[MutationTesting]: Test ignored - test34
+[MutationTesting]: Test ignored - test35
+[MutationTesting]: Number of tests executed - 1
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.308 s
+[[1;34mINFO[m] Finished at: 2020-08-28T19:34:29+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
