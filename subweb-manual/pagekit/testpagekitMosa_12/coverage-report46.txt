@@ -1,7 +1,0 @@
-Name: Statements Percentage: 54.84% Fraction: 555/1012
-Name: Branches Percentage: 27.19% Fraction: 183/673
-Name: Functions Percentage: 46.79% Fraction: 131/280
-Name: Lines Percentage: 55.21% Fraction: 540/978
-PARSE_BUG_HERE
-SEVERE->http://localhost:3003/pagekit/index.php/api/site/menu - Failed to load resource: the server responded with a status of 409 (Conflict)
-SEVERE->http://localhost:3003/pagekit/app/assets/codemirror/codemirror.js 42:1639 Uncaught TypeError: Cannot read property 'value' of undefined

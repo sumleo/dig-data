@@ -1,8 +1,0 @@
-Name: Statements Percentage: 54.82% Fraction: 608/1109
-Name: Branches Percentage: 35.56% Fraction: 255/717
-Name: Functions Percentage: 45.45% Fraction: 150/330
-Name: Lines Percentage: 55.07% Fraction: 592/1075
-PARSE_BUG_HERE
-SEVERE->http://localhost:3003/pagekit/app/assets/codemirror/codemirror.js 42:1639 Uncaught TypeError: Cannot read property 'value' of undefined
-SEVERE->http://localhost:3003/pagekit/app/assets/codemirror/codemirror.js 42:1639 Uncaught TypeError: Cannot read property 'value' of undefined
-SEVERE->http://localhost:3003/pagekit/app/assets/codemirror/codemirror.js 42:1639 Uncaught TypeError: Cannot read property 'value' of undefined

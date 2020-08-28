@@ -1,6 +1,0 @@
-Name: Statements Percentage: 57.42% Fraction: 685/1193
-Name: Branches Percentage: 30.25% Fraction: 226/747
-Name: Functions Percentage: 51.46% Fraction: 194/377
-Name: Lines Percentage: 57.64% Fraction: 668/1159
-PARSE_BUG_HERE
-SEVERE->http://localhost:3003/pagekit/index.php/api/user/bulk - Failed to load resource: the server responded with a status of 400 (Bad Request)
